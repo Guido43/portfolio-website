@@ -1,0 +1,245 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 2 version
+*/
+
+body {
+    font-family: 'oswald', sans-serif;
+    color: #2b2b2b;
+    background-color: #f0ffff;
+  }
+  
+  header {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  li {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  #table {
+    text-align: center;
+  }
+  
+  table {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+  }
+  
+  td {
+    padding: 20px 15vw 20px 15vw;
+    text-align: right;
+  }
+  
+  .table-title {
+    font-size: 20px;
+    font-style: bold;
+  }
+  
+  a:visited {
+    color: #05676e;
+  }
+  
+  a:hover {
+    color: purple;
+    text-decoration: none;
+  }
+  
+  a:focus {
+    outline: 7px solid blue;
+  }
+  
+  a:active {
+    color: #05676e;
+  }
+  
+  .page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  .page-header_item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 200px;
+            flex: 0 1 200px;
+  }
+  
+  .page-header_item {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: right;
+  }
+  
+  .navigation-list_item {
+    list-style-type: none;
+    font-size: 14px;
+  }
+  
+  .navigation-list {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  .page-footer {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin-top: 8vh;
+  }
+  
+  .button:hover,
+  .button:focus {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  .button {
+    margin: 10px 47vw;
+    border: none;
+    display: inline-block;
+    font-family: 'oswald', sans-serif;
+    background-color: #05676e;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 10s;
+            transition-duration: 10s;
+  }
+  
+  .left-prop {
+    margin-right: 70px;
+  }
+  
+  svg {
+    width: 50%;
+    height: 600px;
+    margin-left: 25vw;
+  }
+  
+  @-webkit-keyframes color-change {
+    0% {
+      fill: #33A892;
+    }
+  
+    50% {
+      fill: #fcffad;
+    }
+  
+    100% {
+      fill: #f76414;
+    }
+  }
+  
+  @keyframes color-change {
+    0% {
+      fill: #33A892;
+    }
+  
+    50% {
+      fill: #fcffad;
+    }
+  
+    100% {
+      fill: #f76414;
+    }
+  }
+  
+  .st21,
+  .st15,
+  .st12 {
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+    -webkit-animation-name: color-change;
+            animation-name: color-change;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  
+  @-webkit-keyframes cloud-move {
+    from {
+      -webkit-transform: translate(800px, 100px);
+              transform: translate(800px, 100px);
+      margin-right: 800px;
+    }
+  
+    to {
+      -webkit-transform: translate(100px, 0px);
+              transform: translate(100px, 0px);
+    }
+  }
+  
+  @keyframes cloud-move {
+    from {
+      -webkit-transform: translate(800px, 100px);
+              transform: translate(800px, 100px);
+      margin-right: 800px;
+    }
+  
+    to {
+      -webkit-transform: translate(100px, 0px);
+              transform: translate(100px, 0px);
+    }
+  }
+  
+  .st4 {
+    -webkit-animation: 4s cloud-move infinite alternate linear;
+            animation: 4s cloud-move infinite alternate linear;
+  }
+  
+  .design-reference {
+    text-align: center
+  }
+     
